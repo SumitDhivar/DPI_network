@@ -1,0 +1,499 @@
+{
+  "elapsed_sec": 16.9,
+  "total_packets": 469,
+  "total_bytes": 313302,
+  "avg_pps": 27.79,
+  "avg_bps": 18562.33,
+  "proto_dist": {
+    "UDP": 334,
+    "TCP": 135
+  },
+  "l7_dist": {
+    "HTTPS": 439,
+    "DNS": 30
+  },
+  "top_src_ips": [
+    [
+      "10.0.2.15",
+      111344
+    ],
+    [
+      "104.18.32.47",
+      90035
+    ],
+    [
+      "192.178.211.84",
+      69802
+    ],
+    [
+      "142.251.221.234",
+      16528
+    ],
+    [
+      "172.217.174.238",
+      13962
+    ],
+    [
+      "172.64.155.209",
+      7129
+    ],
+    [
+      "192.168.1.1",
+      1963
+    ],
+    [
+      "142.250.70.78",
+      877
+    ],
+    [
+      "34.149.66.154",
+      512
+    ],
+    [
+      "52.168.117.174",
+      486
+    ]
+  ],
+  "top_dst_ips": [
+    [
+      "10.0.2.15",
+      201958
+    ],
+    [
+      "104.18.32.47",
+      33820
+    ],
+    [
+      "172.217.174.238",
+      32933
+    ],
+    [
+      "142.251.221.234",
+      12557
+    ],
+    [
+      "192.178.211.84",
+      10503
+    ],
+    [
+      "142.250.70.78",
+      6387
+    ],
+    [
+      "34.149.66.154",
+      6216
+    ],
+    [
+      "172.64.155.209",
+      4291
+    ],
+    [
+      "52.168.117.174",
+      2780
+    ],
+    [
+      "192.168.1.1",
+      1349
+    ]
+  ],
+  "top_services": [
+    [
+      "HTTPS",
+      439
+    ],
+    [
+      "DNS",
+      30
+    ]
+  ],
+  "alert_count": 217,
+  "flow_count": 1,
+  "bps_history": [
+    279,
+    6975,
+    266,
+    25146,
+    9899,
+    0,
+    0,
+    0,
+    12231,
+    17152,
+    78704,
+    24635,
+    4873,
+    32471,
+    21081,
+    29454
+  ],
+  "pps_history": [
+    2,
+    14,
+    2,
+    40,
+    22,
+    0,
+    0,
+    0,
+    35,
+    39,
+    86,
+    34,
+    16,
+    53,
+    27,
+    48
+  ],
+  "alerts": [
+    {
+      "timestamp": 1775036749.263927,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "10.0.2.15",
+      "detail": "Entropy=7.44 on UDP/443"
+    },
+    {
+      "timestamp": 1775036749.2785404,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "10.0.2.15",
+      "detail": "Entropy=7.24 on UDP/443"
+    },
+    {
+      "timestamp": 1775036749.3482735,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "10.0.2.15",
+      "detail": "Entropy=7.86 on UDP/443"
+    },
+    {
+      "timestamp": 1775036749.3573453,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "10.0.2.15",
+      "detail": "Entropy=7.61 on UDP/443"
+    },
+    {
+      "timestamp": 1775036749.3824377,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "10.0.2.15",
+      "detail": "Entropy=7.80 on UDP/443"
+    },
+    {
+      "timestamp": 1775036749.4872365,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "10.0.2.15",
+      "detail": "Entropy=7.87 on UDP/443"
+    },
+    {
+      "timestamp": 1775036749.4894013,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.86 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.4937887,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.86 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.4949026,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.86 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.5145876,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.84 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.5509686,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.87 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.5630066,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.75 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.5851915,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "104.18.32.47",
+      "detail": "Entropy=7.78 on UDP/50777"
+    },
+    {
+      "timestamp": 1775036749.6963513,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.85 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.7044058,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.87 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.7617521,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "10.0.2.15",
+      "detail": "Entropy=7.54 on UDP/443"
+    },
+    {
+      "timestamp": 1775036749.7988794,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "10.0.2.15",
+      "detail": "Entropy=7.85 on UDP/443"
+    },
+    {
+      "timestamp": 1775036749.8033106,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.60 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.806157,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.85 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.809164,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.85 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.8104043,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.88 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.8153784,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.88 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.817027,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.87 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.817554,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.87 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.8263288,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.86 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.8458726,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.89 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.8578691,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "104.18.32.47",
+      "detail": "Entropy=7.80 on UDP/50777"
+    },
+    {
+      "timestamp": 1775036749.8591282,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.88 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.9249382,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.86 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.9447193,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.86 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.9575372,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.88 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.9670267,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.88 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.9691901,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.88 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.9714108,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.88 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.9731302,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.88 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.9915373,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.86 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036749.9921453,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.85 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036750.0035756,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.87 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036750.0051417,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.86 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036750.0214148,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.88 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036750.041129,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.85 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036750.0417876,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.87 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036750.0611265,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.86 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036750.079057,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.86 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036750.0855865,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.87 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036750.1300855,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.86 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036750.1356554,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.86 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036750.155314,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.86 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036750.1877244,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.87 on TCP/60654"
+    },
+    {
+      "timestamp": 1775036750.1889842,
+      "type": "HIGH_ENTROPY",
+      "severity": "MEDIUM",
+      "src_ip": "192.178.211.84",
+      "detail": "Entropy=7.88 on TCP/60654"
+    }
+  ]
+}
